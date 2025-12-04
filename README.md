@@ -28,3 +28,11 @@ go run main.go helper.go
 
 ```bash
 go run main.go
+
+
+📂 Project Structure
+booking_app/
+ ├── main.go
+ ├── go.mod
+ └── helper/
+      └── validate.go
