@@ -1,16 +1,12 @@
 # 🎫 Go Ticket Booking Application
 
-A simple, fast, and concurrent **ticket booking CLI application** built using **Golang**, demonstrating clean architecture, input validation, and asynchronous operations using goroutines.
+A simple, fast, and concurrent **ticket booking CLI application** built using **Golang**, demonstrating clean architecture, input validation, and real-time booking logic with asynchronous operations using goroutines.
+
+---
 
 ## ✨ Features
-- Modular code with helper package for input validation
-- Handles concurrent operations using **goroutines** and **sync.WaitGroup**
-- Custom `UserData` struct for storing bookings
-- Real-time ticket tracking with slice-based storage
-- Email confirmation simulation using concurrency
-- Clean, readable, and beginner-friendly Go code
-
-## 🛠 Tech Stack
-- Go (Golang)
-- Goroutines & WaitGroups
-- Structs, Slices, Modular Packages
+- Modular code with a helper package for input validation  
+- Concurrent operations using **goroutines** and **sync.WaitGroup**  
+- Custom `UserData` struct to store booking details  
+- Real-time ticket tracking using slice-based storage  
+- Simulated e
